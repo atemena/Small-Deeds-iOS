@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19682F0E1DB82FE2006D4D80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19682F0D1DB82FE2006D4D80 /* AppDelegate.swift */; };
+		19682F101DB82FE2006D4D80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19682F0F1DB82FE2006D4D80 /* ViewController.swift */; };
+		19682F131DB82FE2006D4D80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19682F111DB82FE2006D4D80 /* Main.storyboard */; };
+		19682F161DB82FE2006D4D80 /* Small_Deeds.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 19682F141DB82FE2006D4D80 /* Small_Deeds.xcdatamodeld */; };
+		19682F181DB82FE2006D4D80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19682F171DB82FE2006D4D80 /* Assets.xcassets */; };
+		19682F1B1DB82FE2006D4D80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19682F191DB82FE2006D4D80 /* LaunchScreen.storyboard */; };
+		19682F261DB82FE2006D4D80 /* Small_DeedsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19682F251DB82FE2006D4D80 /* Small_DeedsTests.swift */; };
+		19682F311DB82FE2006D4D80 /* Small_DeedsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19682F301DB82FE2006D4D80 /* Small_DeedsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19682F221DB82FE2006D4D80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19682F021DB82FE2006D4D80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19682F091DB82FE2006D4D80;
+			remoteInfo = "Small Deeds";
+		};
+		19682F2D1DB82FE2006D4D80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19682F021DB82FE2006D4D80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19682F091DB82FE2006D4D80;
+			remoteInfo = "Small Deeds";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19682F0A1DB82FE2006D4D80 /* Small Deeds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Small Deeds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19682F0D1DB82FE2006D4D80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19682F0F1DB82FE2006D4D80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		19682F121DB82FE2006D4D80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19682F151DB82FE2006D4D80 /* Small_Deeds.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Small_Deeds.xcdatamodel; sourceTree = "<group>"; };
+		19682F171DB82FE2006D4D80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19682F1A1DB82FE2006D4D80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19682F1C1DB82FE2006D4D80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19682F211DB82FE2006D4D80 /* Small DeedsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Small DeedsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19682F251DB82FE2006D4D80 /* Small_DeedsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Small_DeedsTests.swift; sourceTree = "<group>"; };
+		19682F271DB82FE2006D4D80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19682F2C1DB82FE2006D4D80 /* Small DeedsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Small DeedsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19682F301DB82FE2006D4D80 /* Small_DeedsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Small_DeedsUITests.swift; sourceTree = "<group>"; };
+		19682F321DB82FE2006D4D80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19682F071DB82FE2006D4D80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19682F1E1DB82FE2006D4D80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19682F291DB82FE2006D4D80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19682F011DB82FE2006D4D80 = {
+			isa = PBXGroup;
+			children = (
+				19682F0C1DB82FE2006D4D80 /* Small Deeds */,
+				19682F241DB82FE2006D4D80 /* Small DeedsTests */,
+				19682F2F1DB82FE2006D4D80 /* Small DeedsUITests */,
+				19682F0B1DB82FE2006D4D80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19682F0B1DB82FE2006D4D80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19682F0A1DB82FE2006D4D80 /* Small Deeds.app */,
+				19682F211DB82FE2006D4D80 /* Small DeedsTests.xctest */,
+				19682F2C1DB82FE2006D4D80 /* Small DeedsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19682F0C1DB82FE2006D4D80 /* Small Deeds */ = {
+			isa = PBXGroup;
+			children = (
+				19682F0D1DB82FE2006D4D80 /* AppDelegate.swift */,
+				19682F0F1DB82FE2006D4D80 /* ViewController.swift */,
+				19682F111DB82FE2006D4D80 /* Main.storyboard */,
+				19682F171DB82FE2006D4D80 /* Assets.xcassets */,
+				19682F191DB82FE2006D4D80 /* LaunchScreen.storyboard */,
+				19682F1C1DB82FE2006D4D80 /* Info.plist */,
+				19682F141DB82FE2006D4D80 /* Small_Deeds.xcdatamodeld */,
+			);
+			path = "Small Deeds";
+			sourceTree = "<group>";
+		};
+		19682F241DB82FE2006D4D80 /* Small DeedsTests */ = {
+			isa = PBXGroup;
+			children = (
+				19682F251DB82FE2006D4D80 /* Small_DeedsTests.swift */,
+				19682F271DB82FE2006D4D80 /* Info.plist */,
+			);
+			path = "Small DeedsTests";
+			sourceTree = "<group>";
+		};
+		19682F2F1DB82FE2006D4D80 /* Small DeedsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19682F301DB82FE2006D4D80 /* Small_DeedsUITests.swift */,
+				19682F321DB82FE2006D4D80 /* Info.plist */,
+			);
+			path = "Small DeedsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19682F091DB82FE2006D4D80 /* Small Deeds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19682F351DB82FE2006D4D80 /* Build configuration list for PBXNativeTarget "Small Deeds" */;
+			buildPhases = (
+				19682F061DB82FE2006D4D80 /* Sources */,
+				19682F071DB82FE2006D4D80 /* Frameworks */,
+				19682F081DB82FE2006D4D80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Small Deeds";
+			productName = "Small Deeds";
+			productReference = 19682F0A1DB82FE2006D4D80 /* Small Deeds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19682F201DB82FE2006D4D80 /* Small DeedsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19682F381DB82FE2006D4D80 /* Build configuration list for PBXNativeTarget "Small DeedsTests" */;
+			buildPhases = (
+				19682F1D1DB82FE2006D4D80 /* Sources */,
+				19682F1E1DB82FE2006D4D80 /* Frameworks */,
+				19682F1F1DB82FE2006D4D80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19682F231DB82FE2006D4D80 /* PBXTargetDependency */,
+			);
+			name = "Small DeedsTests";
+			productName = "Small DeedsTests";
+			productReference = 19682F211DB82FE2006D4D80 /* Small DeedsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19682F2B1DB82FE2006D4D80 /* Small DeedsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19682F3B1DB82FE2006D4D80 /* Build configuration list for PBXNativeTarget "Small DeedsUITests" */;
+			buildPhases = (
+				19682F281DB82FE2006D4D80 /* Sources */,
+				19682F291DB82FE2006D4D80 /* Frameworks */,
+				19682F2A1DB82FE2006D4D80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19682F2E1DB82FE2006D4D80 /* PBXTargetDependency */,
+			);
+			name = "Small DeedsUITests";
+			productName = "Small DeedsUITests";
+			productReference = 19682F2C1DB82FE2006D4D80 /* Small DeedsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19682F021DB82FE2006D4D80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = SmallDeeds;
+				TargetAttributes = {
+					19682F091DB82FE2006D4D80 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					19682F201DB82FE2006D4D80 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 19682F091DB82FE2006D4D80;
+					};
+					19682F2B1DB82FE2006D4D80 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 19682F091DB82FE2006D4D80;
+					};
+				};
+			};
+			buildConfigurationList = 19682F051DB82FE2006D4D80 /* Build configuration list for PBXProject "Small Deeds" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19682F011DB82FE2006D4D80;
+			productRefGroup = 19682F0B1DB82FE2006D4D80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19682F091DB82FE2006D4D80 /* Small Deeds */,
+				19682F201DB82FE2006D4D80 /* Small DeedsTests */,
+				19682F2B1DB82FE2006D4D80 /* Small DeedsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19682F081DB82FE2006D4D80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19682F1B1DB82FE2006D4D80 /* LaunchScreen.storyboard in Resources */,
+				19682F181DB82FE2006D4D80 /* Assets.xcassets in Resources */,
+				19682F131DB82FE2006D4D80 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19682F1F1DB82FE2006D4D80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19682F2A1DB82FE2006D4D80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19682F061DB82FE2006D4D80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19682F101DB82FE2006D4D80 /* ViewController.swift in Sources */,
+				19682F0E1DB82FE2006D4D80 /* AppDelegate.swift in Sources */,
+				19682F161DB82FE2006D4D80 /* Small_Deeds.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19682F1D1DB82FE2006D4D80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19682F261DB82FE2006D4D80 /* Small_DeedsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19682F281DB82FE2006D4D80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19682F311DB82FE2006D4D80 /* Small_DeedsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19682F231DB82FE2006D4D80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19682F091DB82FE2006D4D80 /* Small Deeds */;
+			targetProxy = 19682F221DB82FE2006D4D80 /* PBXContainerItemProxy */;
+		};
+		19682F2E1DB82FE2006D4D80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19682F091DB82FE2006D4D80 /* Small Deeds */;
+			targetProxy = 19682F2D1DB82FE2006D4D80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19682F111DB82FE2006D4D80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19682F121DB82FE2006D4D80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19682F191DB82FE2006D4D80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19682F1A1DB82FE2006D4D80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19682F331DB82FE2006D4D80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19682F341DB82FE2006D4D80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19682F361DB82FE2006D4D80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Small Deeds/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smalldeeds.Small-Deeds";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		19682F371DB82FE2006D4D80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Small Deeds/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smalldeeds.Small-Deeds";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		19682F391DB82FE2006D4D80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Small DeedsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smalldeeds.Small-DeedsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Small Deeds.app/Small Deeds";
+			};
+			name = Debug;
+		};
+		19682F3A1DB82FE2006D4D80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Small DeedsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smalldeeds.Small-DeedsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Small Deeds.app/Small Deeds";
+			};
+			name = Release;
+		};
+		19682F3C1DB82FE2006D4D80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Small DeedsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smalldeeds.Small-DeedsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Small Deeds";
+			};
+			name = Debug;
+		};
+		19682F3D1DB82FE2006D4D80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Small DeedsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smalldeeds.Small-DeedsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Small Deeds";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19682F051DB82FE2006D4D80 /* Build configuration list for PBXProject "Small Deeds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19682F331DB82FE2006D4D80 /* Debug */,
+				19682F341DB82FE2006D4D80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19682F351DB82FE2006D4D80 /* Build configuration list for PBXNativeTarget "Small Deeds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19682F361DB82FE2006D4D80 /* Debug */,
+				19682F371DB82FE2006D4D80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		19682F381DB82FE2006D4D80 /* Build configuration list for PBXNativeTarget "Small DeedsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19682F391DB82FE2006D4D80 /* Debug */,
+				19682F3A1DB82FE2006D4D80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		19682F3B1DB82FE2006D4D80 /* Build configuration list for PBXNativeTarget "Small DeedsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19682F3C1DB82FE2006D4D80 /* Debug */,
+				19682F3D1DB82FE2006D4D80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		19682F141DB82FE2006D4D80 /* Small_Deeds.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				19682F151DB82FE2006D4D80 /* Small_Deeds.xcdatamodel */,
+			);
+			currentVersion = 19682F151DB82FE2006D4D80 /* Small_Deeds.xcdatamodel */;
+			path = Small_Deeds.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 19682F021DB82FE2006D4D80 /* Project object */;
+}
