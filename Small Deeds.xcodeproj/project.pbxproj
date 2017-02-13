@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1910C7B01DCA9E7500C42580 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1910C7AF1DCA9E7500C42580 /* LogInViewController.swift */; };
+		1910C7B41DCBE11C00C42580 /* KeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1910C7B31DCBE11C00C42580 /* KeychainWrapper.m */; };
+		191322D41DBEE96200A9AE10 /* ClientApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191322D31DBEE96200A9AE10 /* ClientApi.swift */; };
+		192A75531DC7C5C8001200A2 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192A75521DC7C5C8001200A2 /* SwiftyJSON.swift */; };
+		192A75551DC7F8E8001200A2 /* DeedDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192A75541DC7F8E8001200A2 /* DeedDetailViewController.swift */; };
+		196046901DBD819700A0E81D /* Deed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1960468F1DBD819700A0E81D /* Deed.swift */; };
+		196046921DBD86E100A0E81D /* DeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196046911DBD86E100A0E81D /* DeedTableViewCell.swift */; };
+		196046941DBD8C2800A0E81D /* DeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196046931DBD8C2800A0E81D /* DeedTableViewController.swift */; };
 		19682F0E1DB82FE2006D4D80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19682F0D1DB82FE2006D4D80 /* AppDelegate.swift */; };
 		19682F101DB82FE2006D4D80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19682F0F1DB82FE2006D4D80 /* ViewController.swift */; };
 		19682F131DB82FE2006D4D80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19682F111DB82FE2006D4D80 /* Main.storyboard */; };
@@ -15,6 +23,8 @@
 		19682F1B1DB82FE2006D4D80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19682F191DB82FE2006D4D80 /* LaunchScreen.storyboard */; };
 		19682F261DB82FE2006D4D80 /* Small_DeedsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19682F251DB82FE2006D4D80 /* Small_DeedsTests.swift */; };
 		19682F311DB82FE2006D4D80 /* Small_DeedsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19682F301DB82FE2006D4D80 /* Small_DeedsUITests.swift */; };
+		199D88311DD511B900E77E52 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199D88301DD511B900E77E52 /* User.swift */; };
+		19A2FB311DD27E2D00E4AA60 /* Pledge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A2FB301DD27E2D00E4AA60 /* Pledge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1910C7AF1DCA9E7500C42580 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		1910C7B11DCBE11B00C42580 /* Small Deeds-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Small Deeds-Bridging-Header.h"; sourceTree = "<group>"; };
+		1910C7B21DCBE11C00C42580 /* KeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainWrapper.h; sourceTree = "<group>"; };
+		1910C7B31DCBE11C00C42580 /* KeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainWrapper.m; sourceTree = "<group>"; };
+		191322D31DBEE96200A9AE10 /* ClientApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientApi.swift; sourceTree = "<group>"; };
+		192A75521DC7C5C8001200A2 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		192A75541DC7F8E8001200A2 /* DeedDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeedDetailViewController.swift; sourceTree = "<group>"; };
+		1960468F1DBD819700A0E81D /* Deed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deed.swift; sourceTree = "<group>"; };
+		196046911DBD86E100A0E81D /* DeedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeedTableViewCell.swift; sourceTree = "<group>"; };
+		196046931DBD8C2800A0E81D /* DeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeedTableViewController.swift; sourceTree = "<group>"; };
 		19682F0A1DB82FE2006D4D80 /* Small Deeds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Small Deeds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19682F0D1DB82FE2006D4D80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19682F0F1DB82FE2006D4D80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +69,9 @@
 		19682F2C1DB82FE2006D4D80 /* Small DeedsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Small DeedsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19682F301DB82FE2006D4D80 /* Small_DeedsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Small_DeedsUITests.swift; sourceTree = "<group>"; };
 		19682F321DB82FE2006D4D80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		199D88301DD511B900E77E52 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		199D88321DDAAB8500E77E52 /* Small Deeds.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Small Deeds.entitlements"; sourceTree = "<group>"; };
+		19A2FB301DD27E2D00E4AA60 /* Pledge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pledge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +122,26 @@
 		19682F0C1DB82FE2006D4D80 /* Small Deeds */ = {
 			isa = PBXGroup;
 			children = (
+				199D88321DDAAB8500E77E52 /* Small Deeds.entitlements */,
 				19682F0D1DB82FE2006D4D80 /* AppDelegate.swift */,
 				19682F0F1DB82FE2006D4D80 /* ViewController.swift */,
 				19682F111DB82FE2006D4D80 /* Main.storyboard */,
+				196046931DBD8C2800A0E81D /* DeedTableViewController.swift */,
+				1910C7AF1DCA9E7500C42580 /* LogInViewController.swift */,
+				1910C7B21DCBE11C00C42580 /* KeychainWrapper.h */,
+				1910C7B31DCBE11C00C42580 /* KeychainWrapper.m */,
+				192A75541DC7F8E8001200A2 /* DeedDetailViewController.swift */,
+				191322D31DBEE96200A9AE10 /* ClientApi.swift */,
+				196046911DBD86E100A0E81D /* DeedTableViewCell.swift */,
+				192A75521DC7C5C8001200A2 /* SwiftyJSON.swift */,
+				1960468F1DBD819700A0E81D /* Deed.swift */,
+				19A2FB301DD27E2D00E4AA60 /* Pledge.swift */,
+				199D88301DD511B900E77E52 /* User.swift */,
 				19682F171DB82FE2006D4D80 /* Assets.xcassets */,
 				19682F191DB82FE2006D4D80 /* LaunchScreen.storyboard */,
 				19682F1C1DB82FE2006D4D80 /* Info.plist */,
 				19682F141DB82FE2006D4D80 /* Small_Deeds.xcdatamodeld */,
+				1910C7B11DCBE11B00C42580 /* Small Deeds-Bridging-Header.h */,
 			);
 			path = "Small Deeds";
 			sourceTree = "<group>";
@@ -196,7 +232,14 @@
 				TargetAttributes = {
 					19682F091DB82FE2006D4D80 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = GQX2GE825N;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					19682F201DB82FE2006D4D80 = {
 						CreatedOnToolsVersion = 8.0;
@@ -262,9 +305,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				199D88311DD511B900E77E52 /* User.swift in Sources */,
 				19682F101DB82FE2006D4D80 /* ViewController.swift in Sources */,
+				196046921DBD86E100A0E81D /* DeedTableViewCell.swift in Sources */,
+				191322D41DBEE96200A9AE10 /* ClientApi.swift in Sources */,
+				192A75531DC7C5C8001200A2 /* SwiftyJSON.swift in Sources */,
+				19A2FB311DD27E2D00E4AA60 /* Pledge.swift in Sources */,
+				192A75551DC7F8E8001200A2 /* DeedDetailViewController.swift in Sources */,
 				19682F0E1DB82FE2006D4D80 /* AppDelegate.swift in Sources */,
 				19682F161DB82FE2006D4D80 /* Small_Deeds.xcdatamodeld in Sources */,
+				1910C7B41DCBE11C00C42580 /* KeychainWrapper.m in Sources */,
+				196046901DBD819700A0E81D /* Deed.swift in Sources */,
+				1910C7B01DCA9E7500C42580 /* LogInViewController.swift in Sources */,
+				196046941DBD8C2800A0E81D /* DeedTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,10 +469,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Small Deeds/Small Deeds.entitlements";
+				DEVELOPMENT_TEAM = GQX2GE825N;
 				INFOPLIST_FILE = "Small Deeds/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.smalldeeds.Small-Deeds";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Small Deeds/Small Deeds-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -428,10 +486,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Small Deeds/Small Deeds.entitlements";
+				DEVELOPMENT_TEAM = GQX2GE825N;
 				INFOPLIST_FILE = "Small Deeds/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.smalldeeds.Small-Deeds";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Small Deeds/Small Deeds-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -509,6 +571,7 @@
 				19682F371DB82FE2006D4D80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19682F381DB82FE2006D4D80 /* Build configuration list for PBXNativeTarget "Small DeedsTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +580,7 @@
 				19682F3A1DB82FE2006D4D80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19682F3B1DB82FE2006D4D80 /* Build configuration list for PBXNativeTarget "Small DeedsUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +589,7 @@
 				19682F3D1DB82FE2006D4D80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
